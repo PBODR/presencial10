@@ -16,34 +16,13 @@ Algoritmo ejercicio5
 			Escribir "computadora elije tijera"
 	Fin Segun
 	
-	Si (op==1 y comp==1) Entonces
+	Si (op==1 y comp==1) o (op==2 y comp==2) o (op==3 y comp==3)  Entonces
 		Escribir "Esto es un empate"
 	Fin Si
-	Si (op==1 y comp==2) Entonces
+	Si (op==1 y comp==2) o (op==2 y comp==3) o (op==3 y comp==1)  Entonces
 		Escribir "La computadora gana"
 	Fin Si
-	Si (op==1 y comp==3) Entonces
+	Si (op==1 y comp==3) o (op==2 y comp==1)  o (op==3 y comp==2) Entonces
 		Escribir "Tœ ganas!!"
-	Fin Si
-	
-	Si (op==2 y comp==1) Entonces
-		Escribir "Tœ ganas!!"
-	Fin Si
-	Si (op==2 y comp==2) Entonces
-		Escribir "Esto es un empate"
-	Fin Si
-	Si (op==2 y comp==3) Entonces
-		Escribir "La computadora gana"
-	Fin Si
-	
-	
-	Si (op==3 y comp==1) Entonces
-		Escribir "La computadora gana"
-	Fin Si
-	Si (op==3 y comp==2) Entonces
-		Escribir "Tœ ganas!!"
-	Fin Si
-	Si (op==3 y comp==3) Entonces
-		Escribir "Esto es un empate"
 	Fin Si
 FinAlgoritmo
