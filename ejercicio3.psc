@@ -5,16 +5,13 @@ Algoritmo ejercicio3
 
 	Repetir
 		div<-div+1 
-		resultado<-numb/div 
-		
-		Si resultado MOD div = 0 Entonces
-		escribir "no es primo"
-			
+		resto <- numb MOD div
+		si resto==0
+			Escribir "Este NO es un nœmero primo"
 		FinSi
-		
-	hasta que div<-(REDON(RC(numb)))
-		
-	
-	
-	
+	hasta que div==(REDON(RC(numb)))
+	Si ~(resto==0) 
+		escribir "Este es un nœmero primo"
+	FinSi
+
 FinAlgoritmo
